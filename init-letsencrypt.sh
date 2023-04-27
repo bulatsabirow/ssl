@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(194-67-68-203.cloudvps.regruhosting.ru www.194-67-68-203.cloudvps.regruhosting.ru)
+domains=(hello-world-ssl.site www.hello-world-ssl.site)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="bulatsabirow@gmail.com" # Adding a valid address is strongly recommended
