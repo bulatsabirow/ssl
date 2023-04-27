@@ -5,10 +5,10 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(docr.smmhub.ru www.docr.smmhub.ru)
+domains=(194-67-68-203.cloudvps.regruhosting.ru www.194-67-68-203.cloudvps.regruhosting.ru)
 rsa_key_size=4096
 data_path="./data/certbot"
-email="simenshteyn@gmail.com" # Adding a valid address is strongly recommended
+email="bulatsabirow@gmail.com" # Adding a valid address is strongly recommended
 staging=0 # Set to 1 if you're testing your setup to avoid hitting request limits
 
 if [ -d "$data_path" ]; then
